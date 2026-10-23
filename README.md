@@ -32,7 +32,7 @@
 
 ## 数仓架构
 
-![数仓架构](https://cdn.jsdmirror.com/gh/egonokatamari/img@main/architecture.png)
+![数仓架构](assets/architecture.png)
 
 ```text
 Olist 原始 CSV
@@ -186,25 +186,25 @@ FineBI 看板  →  经营分析结论
 
 ### 1. 经营分析驾驶舱
 
-![经营分析驾驶舱](https://cdn.jsdmirror.com/gh/egonokatamari/img@main/jyfx.png)
+![经营分析驾驶舱](assets/dashboard-01-jyfx.png)
 
 累计 GMV · 订单量 · 件数 · 客单价 · 月度 GMV 趋势与环比
 
 ### 2. 用户价值分析
 
-![用户价值分析](https://cdn.jsdmirror.com/gh/egonokatamari/img@main/yhjz.png)
+![用户价值分析](assets/dashboard-02-yhjz.png)
 
 客群规模与 GMV 贡献对比 · RFM 8 象限分布
 
 ### 3. 商品销售分析
 
-![商品销售分析](https://cdn.jsdmirror.com/gh/egonokatamari/img@main/spfx.png)
+![商品销售分析](assets/dashboard-03-spfx.png)
 
 TOP10 品类 GMV 与运费占比（双轴）
 
 ### 4. 物流效率分析
 
-![物流效率分析](https://cdn.jsdmirror.com/gh/egonokatamari/img@main/wlxl.png)
+![物流效率分析](assets/dashboard-04-wlxl.png)
 
 各州平均交付天数与平均运费（双轴）
 
@@ -233,6 +233,11 @@ SQL/ADS/*.sql      建指标应用表（4 个）
 olist_dw_project
 ├── README.md
 ├── architecture.png
+├── assets
+│   ├── dashboard-01-jyfx.png
+│   ├── dashboard-02-yhjz.png
+│   ├── dashboard-03-spfx.png
+│   └── dashboard-04-wlxl.png
 └── SQL
     ├── ODS
     │   ├── ods_orders.sql
